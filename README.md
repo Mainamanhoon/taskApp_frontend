@@ -48,7 +48,14 @@ The calculator is not your average JavaScript-powered tool. It leverages the pow
 
 The text-to-shader generator is a creative tool that allows you to generate GLSL fragment shaders from a simple text description. It uses a backend API to interpret the text and generate the shader code. The generated shader is then rendered in real-time as a background for the entire application, creating a dynamic and visually stunning experience.
 
+<img width="950" height="500" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/d5a62b64-e42d-4c55-be15-92b149682217" />
+
+
+
+<img width="950" height="500" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/16bff485-99c6-4748-9302-bd24b714c44f" />
+
 -----
+
 
 ## 🌊 Flow
 
@@ -70,11 +77,7 @@ The application flow is straightforward and user-friendly:
 
 
         
-<img width="950" height="500" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/d5a62b64-e42d-4c55-be15-92b149682217" />
 
-
-
-<img width="950" height="500" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/16bff485-99c6-4748-9302-bd24b714c44f" />
 
 
 -----
@@ -267,5 +270,6 @@ The project follows a standard Vite + React folder structure, with some addition
 ```
 
 I hope you enjoy exploring and experimenting with this application\! If you have any questions or suggestions, feel free to open an issue or pull request.
+
 
 
