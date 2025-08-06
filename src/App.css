@@ -1,0 +1,35 @@
+.App {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  text-align: center;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-link {
+  color: #4a9eff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #6bb6ff;
+}
+
+/* Ensure content is positioned above the shader background */
+.App > *:not(canvas) {
+  position: relative;
+  z-index: 10;
+}
