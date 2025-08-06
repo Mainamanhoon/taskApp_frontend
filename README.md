@@ -174,17 +174,8 @@ server: {
       * **`@types/react`**: TypeScript definitions for React
       * **`@types/react-dom`**: TypeScript definitions for React DOM
 
-### 🔧 **Backend Dependencies (Elixir/Phoenix)**
-
-*This section would be based on your `backend/mix.exs` file. Since it wasn't provided, I've outlined the likely dependencies based on a typical Phoenix setup.*
-
-  * **Core Phoenix Dependencies:** `phoenix`, `phoenix_pubsub`, `phoenix_html`, `gettext`
-  * **API & HTTP Dependencies:** `finch`, `jason`, `cors_plug`, `plug_cowboy`
-  * **Development Dependencies:** `phoenix_live_reload`
-
 ### 🦀 **Rust WASM Dependencies**
 
-*This section would be based on your `calculator-wasm/Cargo.toml` file. Since it wasn't provided, I've outlined the likely dependencies.*
 
   * **WASM Compilation:** `wasm-bindgen`, `serde`, `serde-wasm-bindgen`
 
@@ -265,3 +256,4 @@ The project follows a standard Vite + React folder structure, with some addition
 ```
 
 I hope you enjoy exploring and experimenting with this application\! If you have any questions or suggestions, feel free to open an issue or pull request.
+
