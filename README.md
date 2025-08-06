@@ -11,7 +11,7 @@ To get this project up and running on your local machine, follow these simple st
 1.  **Clone the repository:**
 
     ```bash
-    [git clone <your-repository-url>](https://github.com/Mainamanhoon/taskApp_frontend.git)
+    [git clone https://github.com/Mainamanhoon/taskApp_frontend.git]
     cd taskApp_frontend
     ```
 
@@ -153,4 +153,5 @@ The project follows a standard Vite + React folder structure, with some addition
   * **`vite.config.js`**: Vite configuration file.
 
 I hope you enjoy exploring and experimenting with this application\! If you have any questions or suggestions, feel free to open an issue or pull request.
+
 
