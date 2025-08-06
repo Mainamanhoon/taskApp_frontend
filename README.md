@@ -41,6 +41,8 @@ This application is built with **React** and **Vite**, providing a fast and effi
 ### 🔢 The Calculator
 
 The calculator is not your average JavaScript-powered tool. It leverages the power of **WebAssembly (WASM)** for its core logic. The `evaluate_expression` function, which handles all the mathematical calculations, is written in Rust and compiled to WASM. This provides a significant performance boost and showcases the potential of using high-performance languages in the browser.
+<img width="1923" height="1043" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/555caef8-fe5b-4ad9-8536-8e65511289fb" />
+
 
 ### 🎨 The Text-to-Shader Generator
 
@@ -65,6 +67,15 @@ The application flow is straightforward and user-friendly:
       * You'll find a text area where you can describe the shader you want to create (e.g., "a rotating cube with a gradient background").
       * Click the "Generate Shader" button to send the description to the backend.
       * The generated GLSL shader code will be displayed, and the shader itself will be rendered as the background of the entire application.
+
+
+        
+<img width="950" height="500" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/d5a62b64-e42d-4c55-be15-92b149682217" />
+
+
+
+<img width="950" height="500" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/16bff485-99c6-4748-9302-bd24b714c44f" />
+
 
 -----
 
@@ -256,4 +267,5 @@ The project follows a standard Vite + React folder structure, with some addition
 ```
 
 I hope you enjoy exploring and experimenting with this application\! If you have any questions or suggestions, feel free to open an issue or pull request.
+
 
