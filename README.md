@@ -50,6 +50,7 @@ The text-to-shader generator is a creative tool that allows you to generate GLSL
 
 <img width="950" height="500" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/d5a62b64-e42d-4c55-be15-92b149682217" />
 
+ <br />
 
 
 <img width="950" height="500" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/16bff485-99c6-4748-9302-bd24b714c44f" />
@@ -270,6 +271,7 @@ The project follows a standard Vite + React folder structure, with some addition
 ```
 
 I hope you enjoy exploring and experimenting with this application\! If you have any questions or suggestions, feel free to open an issue or pull request.
+
 
 
 
