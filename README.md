@@ -15,7 +15,7 @@ This project is built with following tools:
 
 -----
 
-## 🚀 Local Setup
+##  Local Setup
 
 To get this project up and running on your local machine, follow these simple steps:
 
@@ -171,7 +171,6 @@ server: {
 3.  **Modern Stack**: Latest React, Elixir, Rust versions
 4.  **Production Ready**: Optimized builds, CORS, proper tooling
 
-Your plugin configuration is well-optimized for a modern full-stack application with WebAssembly integration\! 🎉
 
 -----
 
@@ -227,6 +226,7 @@ The project follows a standard Vite + React folder structure, with some addition
 ├── README.md
 └── vite.config.js
 ```
+
 
 
 
