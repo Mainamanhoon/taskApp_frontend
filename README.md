@@ -1,7 +1,17 @@
 
 # Dual Interface App: Calculator & Text-to-Shader
 
-Welcome to the Dual Interface App\! This project is a unique blend of a practical calculator and a creative text-to-shader generator, all running in a sleek, modern web interface. This README will guide you through setting up the project locally, understanding its architecture, and exploring its features.
+ This React project is the frontend of an app which consists of a calculator tab and a text-to-shader generator tab. This README will guide you through setting up the project locally, understanding its architecture, and exploring its features.
+
+##  Tech Stack
+
+This project is built with following tools:
+
+  * **Frontend Framework:** **React**
+  * **Languages:** **JavaScript (with JSX)** and **Rust** (compiled to **WebAssembly**)
+  * **Styling:** **CSS**
+  * **WASM Integration:** `vite-plugin-wasm`, `vite-plugin-top-level-await`
+  * **3D Graphics:** **Raw WebGL**
 
 -----
 
@@ -33,17 +43,17 @@ To get this project up and running on your local machine, follow these simple st
 
 ##  How It Works
 
-This application is built with **React** and **Vite**, providing a fast and efficient development experience. It features two main components:
+This application is built using **React** and it has two main components:
 
 ###  The Calculator
 
-The calculator is not your average JavaScript-powered tool. It leverages the power of **WebAssembly (WASM)** for its core logic. The `evaluate_expression` function, which handles all the mathematical calculations, is written in Rust and compiled to WASM. This provides a significant performance boost and showcases the potential of using high-performance languages in the browser.
+The calculator for simple arithematic operations. It leverages a **WebAssembly (WASM)** for its core logic. The `evaluate_expression` function, which handles all the mathematical calculations, is written in Rust and compiled to WASM.
 <img width="1923" height="1043" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/555caef8-fe5b-4ad9-8536-8e65511289fb" />
 
 
 ###  The Text-to-Shader Generator
 
-The text-to-shader generator is a creative tool that allows you to generate GLSL fragment shaders from a simple text description. It uses a backend API to interpret the text and generate the shader code. The generated shader is then rendered in real-time as a background for the entire application, creating a dynamic and visually stunning experience.
+The text-to-shader generator is a tool that generates GLSL fragment shaders from a simple text description. It uses a backend API to interpret the text and generate the shader code. The generated shader is then rendered  as a background for the entire application.
 
 <img width="950" height="500" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/d5a62b64-e42d-4c55-be15-92b149682217" />
 
@@ -51,32 +61,6 @@ The text-to-shader generator is a creative tool that allows you to generate GLSL
 
 
 <img width="950" height="500" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/16bff485-99c6-4748-9302-bd24b714c44f" />
-
------
-
-
-##  Flow
-
-The application flow is straightforward and user-friendly:
-
-1.  **Navigation:** A simple navigation bar at the top allows you to switch between the "Calculator" and "Text-to-Shader" pages.
-
-2.  **Calculator Page:**
-
-      * The calculator interface is intuitive, with a display for the input and result, and a grid of buttons for numbers and operations.
-      * You can either use the on-screen buttons or type your expression directly into the input field.
-      * Clicking the "=" button or the "Calculate" button will send the expression to the WASM module for evaluation, and the result will be displayed.
-
-3.  **Text-to-Shader Page:**
-
-      * You'll find a text area where you can describe the shader you want to create (e.g., "a rotating cube with a gradient background").
-      * Click the "Generate Shader" button to send the description to the backend.
-      * The generated GLSL shader code will be displayed, and the shader itself will be rendered as the background of the entire application.
-
-
-        
-
-
 
 -----
 
@@ -94,29 +78,6 @@ The integration of WebAssembly is a key feature of this project. Here's how it w
 
 -----
 
-## ☁️ Deployment
-
-This application is deployed as a static site. Here's the general process:
-
-1.  **Build the Project:** The `npm run build` command uses Vite to bundle all the application's assets (HTML, CSS, JavaScript, and WASM) into a `dist` folder.
-
-2.  **Deploy to a Static Host:** The contents of the `dist` folder can be deployed to any static hosting service like Netlify, Vercel, or GitHub Pages.
-
------
-
-## 🛠️ Tech Stack
-
-This project is built with a modern and powerful tech stack:
-
-  * **Frontend Framework:** **React**
-  * **Build Tool:** **Vite**
-  * **Languages:** **JavaScript (with JSX)** and **Rust** (compiled to **WebAssembly**)
-  * **Styling:** **CSS**
-  * **Routing:** **React Router**
-  * **State Management:** **React Hooks** (`useState`, `useEffect`)
-  * **WASM Integration:** `vite-plugin-wasm`, `vite-plugin-top-level-await`
-  * **Linting:** **ESLint**
-  * **3D Graphics:** **Raw WebGL**
 
 -----
 
@@ -266,6 +227,7 @@ The project follows a standard Vite + React folder structure, with some addition
 ├── README.md
 └── vite.config.js
 ```
+
 
 
 
