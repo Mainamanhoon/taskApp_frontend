@@ -148,31 +148,8 @@ server: {
       * **`@types/react-dom`**: TypeScript definitions for React DOM
 
 ###  **Rust WASM Dependencies**
+   * **WASM Compilation:** `wasm-bindgen`, `serde`, `serde-wasm-bindgen`
 
-
-  * **WASM Compilation:** `wasm-bindgen`, `serde`, `serde-wasm-bindgen`
-
-###  **Plugin Purposes Summary**
-
-| **Plugin Category** | **Purpose** | **Why Essential** |
-| :--- | :--- | :--- |
-| **Vite React** | React development | Core framework support |
-| **Vite WASM** | WebAssembly loading | Calculator functionality |
-| **Vite Top-level Await**| Async module loading | WASM initialization |
-| **ESLint React** | Code quality | Maintainable code |
-| **Phoenix Core** | Backend framework | API server |
-| **Phoenix CORS** | Cross-origin requests| Frontend-backend communication |
-| **Rust WASM** | Native performance | High-speed calculations |
-
-### 🚀 **Key Benefits of Your Plugin Stack:**
-
-1.  **Performance**: WASM for calculations, Vite for fast builds
-2.  **Developer Experience**: Hot reload, linting, type safety
-3.  **Modern Stack**: Latest React, Elixir, Rust versions
-4.  **Production Ready**: Optimized builds, CORS, proper tooling
-
-
------
 
 ##  Folder Structure
 
@@ -226,6 +203,7 @@ The project follows a standard Vite + React folder structure, with some addition
 ├── README.md
 └── vite.config.js
 ```
+
 
 
 
