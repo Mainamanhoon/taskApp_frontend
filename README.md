@@ -31,17 +31,17 @@ To get this project up and running on your local machine, follow these simple st
 
 -----
 
-## ✨ How It Works
+##  How It Works
 
 This application is built with **React** and **Vite**, providing a fast and efficient development experience. It features two main components:
 
-### 🔢 The Calculator
+###  The Calculator
 
 The calculator is not your average JavaScript-powered tool. It leverages the power of **WebAssembly (WASM)** for its core logic. The `evaluate_expression` function, which handles all the mathematical calculations, is written in Rust and compiled to WASM. This provides a significant performance boost and showcases the potential of using high-performance languages in the browser.
 <img width="1923" height="1043" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/555caef8-fe5b-4ad9-8536-8e65511289fb" />
 
 
-### 🎨 The Text-to-Shader Generator
+###  The Text-to-Shader Generator
 
 The text-to-shader generator is a creative tool that allows you to generate GLSL fragment shaders from a simple text description. It uses a backend API to interpret the text and generate the shader code. The generated shader is then rendered in real-time as a background for the entire application, creating a dynamic and visually stunning experience.
 
@@ -55,7 +55,7 @@ The text-to-shader generator is a creative tool that allows you to generate GLSL
 -----
 
 
-## 🌊 Flow
+##  Flow
 
 The application flow is straightforward and user-friendly:
 
@@ -120,11 +120,11 @@ This project is built with a modern and powerful tech stack:
 
 -----
 
-## 🔌 Plugins & Dependencies Analysis
+##  Plugins & Dependencies Analysis
 
 Here's a comprehensive breakdown of all the plugins and dependencies used in your dual-interface app:
 
-### 🌐 **Frontend Plugins (Vite)**
+###  **Frontend Plugins (Vite)**
 
 #### **Core Vite Plugins:**
 
@@ -166,7 +166,7 @@ server: {
 }
 ```
 
-### 🧰 **Frontend Dependencies**
+###  **Frontend Dependencies**
 
 #### **Runtime Dependencies:**
 
@@ -186,12 +186,12 @@ server: {
       * **`@types/react`**: TypeScript definitions for React
       * **`@types/react-dom`**: TypeScript definitions for React DOM
 
-### 🦀 **Rust WASM Dependencies**
+###  **Rust WASM Dependencies**
 
 
   * **WASM Compilation:** `wasm-bindgen`, `serde`, `serde-wasm-bindgen`
 
-### 🎯 **Plugin Purposes Summary**
+###  **Plugin Purposes Summary**
 
 | **Plugin Category** | **Purpose** | **Why Essential** |
 | :--- | :--- | :--- |
@@ -214,7 +214,7 @@ Your plugin configuration is well-optimized for a modern full-stack application 
 
 -----
 
-## 📁 Folder Structure
+##  Folder Structure
 
 The project follows a standard Vite + React folder structure, with some additions for our specific features:
 
@@ -267,7 +267,7 @@ The project follows a standard Vite + React folder structure, with some addition
 └── vite.config.js
 ```
 
-I hope you enjoy exploring and experimenting with this application\! If you have any questions or suggestions, feel free to open an issue or pull request.
+
 
 
 
